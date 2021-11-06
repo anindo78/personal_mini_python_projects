@@ -1,4 +1,4 @@
-# Anindo's mini projects
+# Personal Python projects
 This is a repo of mini projects built on Python
 
 #### List of projects

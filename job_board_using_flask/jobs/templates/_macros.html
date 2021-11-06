@@ -1,0 +1,12 @@
+{% macro show_job(job) %}
+{{ job['title'] }}
+
+{{ job['employer_name'] }}
+${{ job['salary'] }}
+{{ job['description'] }}
+
+{% endmacro %} {% macro show_jobs(jobs) %}
+{% for job in jobs %}
+{{ show_job(job) }}
+{% endfor %}
+{% endmacro %}
